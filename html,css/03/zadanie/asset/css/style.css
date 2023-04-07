@@ -1,0 +1,65 @@
+.title{
+  text-align: center;
+  color: aliceblue;
+  text-transform: capitalize;
+  margin: 0px;
+  padding-top: 40%;
+  
+}
+
+.text-title{
+  text-align: center;
+  color: aliceblue;
+}
+
+.conteiner{
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  background-color: aquamarine;
+  background-image: url(./../../../asset/images/Ванхуп-28.jpg);
+  background-position: center;
+  background-size: cover;
+}
+body{
+  margin: 0px;
+}
+
+
+.button{
+  display: block;
+  margin: 0px auto;
+  color: aliceblue;
+  background-color: #0e0d0d00;
+  border-radius: 4px;
+}
+.art-1{
+  min-height: 200px;
+  text-align: center;
+  font-size: 20px;
+  background-color: brown; 
+  margin: 0%;
+}
+.art-2{
+  min-height: 200px;
+  text-align: center;
+  font-size: 20px;
+  background-color: wheat; 
+  margin: 0%;
+}
+.art-3{
+  display: inline-block;
+  height: 100%;
+  width: 33.3vw;
+  background-color: brown; 
+  margin: 0px;
+  padding: 10px;
+  box-sizing:border-box;
+  text-align: center;
+  font-size: 20px;
+}
+article div{
+
+
+  width: 100vw;
+}

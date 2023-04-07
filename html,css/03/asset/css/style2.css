@@ -1,0 +1,29 @@
+.btn{
+  width: 100%;
+  max-width:200px ;
+  height: 20%;
+  max-height: 100px;
+  padding: 10px;
+  font-size: 2em;
+  text-transform: capitalize;/*все слова с большой буквы*/
+}
+.text-overfow{
+  overflow:hidden;/*вписывает текс в элемент по длине*/
+  white-space: nowrap;/*текст без переносов (в одну строку)*/
+  text-overflow: ellipsis;/*троеточие*/
+}
+body{
+  margin: 0;
+}
+.content{
+  height: 100vh;
+  box-sizing: border-box;
+  border:solid 2px red;
+  background-color: aquamarine;
+  background-image: url(./../images/Ванхуп-28.jpg);
+  /* background-repeat: no-repeat; */ /*не повторять*/
+  background-position: center;
+  background-size: cover;
+
+}
+

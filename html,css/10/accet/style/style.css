@@ -1,0 +1,45 @@
+.wraper{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*---------header----------*/
+.header{
+  display:flex;
+  justify-content: space-between;
+  background-color:teal;
+  align-items: center;
+  color:aliceblue;
+  flex-wrap: wrap;
+}
+.logo{
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+.nav-list-item{
+  display: inline-block;
+
+}
+.nav-list-item+.nav-list-item{
+  margin-left: 1em;
+}
+.main{
+  flex-grow:1;
+  margin: auto;
+  max-width: 1200px;
+  background-color:gray;
+}
+.main-article{
+  margin: 10px 0;
+  border:2px blue dotted;
+
+}
+
+
+.footer{
+  /* margin-top: auto; */
+  text-align: center;
+  background-color:teal;
+}

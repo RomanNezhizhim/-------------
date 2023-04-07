@@ -1,0 +1,30 @@
+/* body{
+  background-color: #888888;
+} */
+
+
+.main-header{
+  color: #aa000055;
+  text-align: center;
+}
+.art-header{
+  background-color: aqua;
+  color: blue;
+  text-align: center;/*распоожение текста */
+}
+.art-header+p{
+  font-size: 15px;/*размер шрифта */
+   font-weight: 800; /*жирность шрифта */
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/* безопасные шрифты */
+  line-height: 1.2em;
+  text-align: justify;/*выравнивание по центру */
+} 
+.page-link{
+  text-decoration: overline 5px double magenta;/*выделение теста (цвет,подчеркивание)*/
+
+}
+.aline-center {
+  text-align: center;
+  color:blue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

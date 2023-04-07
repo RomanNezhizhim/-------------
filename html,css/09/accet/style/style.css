@@ -1,0 +1,27 @@
+:root{
+  font-size: 15px;
+}
+*{
+  box-sizing: border-box;
+}
+.conteiner{
+  border:5px solid blue;
+  max-width: 80%;
+}
+.item{
+  /* width: 25%; */
+  height: 70vh;
+  border:5px solid red;
+  background-color:aqua;
+  font-size: 1.5em;
+  text-align: center;
+}
+.flex-parnet{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;/*выстраивает внутрение блоки в строку(colon в колонку)*/
+  align-items: stretch;/*выравнивание относительно поперечной оси*/
+  /* justify-content: center;позиция контента отностително основной оси */
+  justify-content: space-evenly;/*around-распределяет свободное место раномерно по сторонам от вложеного элнмента (spase-between делает равное растояние между элементами)(evenly - раноное растояние и между элементами и от границ родителя )*/
+
+}

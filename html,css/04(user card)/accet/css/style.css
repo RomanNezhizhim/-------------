@@ -1,0 +1,116 @@
+body{
+  margin: 0;
+}
+.conteuner-hiden{
+  display:inline-block;
+  box-sizing:border-box;
+  border:1px solid red;
+  width: 25vw;
+  min-height: 100px;
+  
+}
+.hiden-2{
+  display: none;/*пропадает и из потока и из ридера*/
+}
+.hiden-2{
+  background-color: aqua;
+  opacity: 1;/*прозрачность от 0 до 1*/
+}
+.hiden-3{
+  visibility: hidden;/* пропадает из ридера,в птоке остаеться */
+}
+
+
+.card-conteiner{
+  box-sizing:border-box;
+  text-align: center; 
+  padding: 0 20px;
+}
+.card-wrapper{
+  --img-size: 120px;
+  --main-bg-color:#6ccccc ;
+  min-width: calc(var(--img-size)*2);
+  width: 100%;
+  max-width:calc(var(--img-size)*4);
+  border: 1px solid var(--main-bg-color);
+  margin: 0 auto;
+}
+.bg-header{
+  height: calc(var(--img-size)*1.5);
+  background-color:var(--main-bg-color);
+}
+.photo-profile{
+  width: var(--img-size);
+  height: var(--img-size);
+  padding: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 50%;
+  background-color:#cccccc;
+  object-fit: cover;
+  object-position: top;
+  margin-top: calc(var(--img-size)*-0.5);
+}
+.full-name-profile{
+  margin: 10px;
+  font-size: larger;
+  font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif;
+}
+.address-profile{
+  font-size: medium;
+}
+.icon-map{
+  width: 15px;
+  margin-bottom: 4px;
+}
+.capitalize{
+  text-transform: capitalize;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.btn-conteiner{
+  margin-top: 10px;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  padding: 15px 0 ;
+}
+.btn{
+  border:1px solid;
+  border-radius: 10px;
+  background:green;
+  color:white;
+}
+.foloww{
+  background:blue;
+}
+.discription-prifile{
+  margin:20px;
+  font-size: medium;
+  font-family: 'Raleway', sans-serif;
+}
+.card-footer{
+  height:100px;
+  background-color:var(--main-bg-color);
+}
+.card-item-social{
+margin-top:20px; 
+display: inline-block;
+}
+.style-linc{
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color:var(--main-bg-color);
+  background-position: center;
+  background-size: cover;
+}
+.fb{
+  background-image:url(./../image/fb-icon.png);
+}
+.google{  
+  background-image:url(./../image/google-chrome.png);
+}
+.twitter{
+  background-image:url(./../image/Twitter-icon.png);
+}

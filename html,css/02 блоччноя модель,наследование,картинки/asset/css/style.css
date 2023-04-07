@@ -1,0 +1,46 @@
+
+.main-article
+{
+  font-size: 30px;
+  border: 3px solid palevioletred;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+.head-article{
+  font-size: unset;
+  font-size: 25px;
+  border: inherit; /*наследует от родителя*/
+  border-radius: inherit;
+}
+
+.content-article{
+  font-size: initial; /*не наследует от родителя*/
+  font-family: 'Segoe UI', Tahoma, Geneva, /*семейство шрифтов*/Verdana, sans-serif ;
+}
+.dovbo{
+  border: 2px solid blue;
+  height:200px;/*высота*/
+  width: 200px;/*ширина*/
+  border-radius: 50%;/*округлет*/
+  object-fit: cover;/*полное заполнение блокка с соблюдением пропорций*/
+  object-position: -40px 0px ;/*позиция внутри блокка первое значение по х второе по y*/
+  /* height: 600px; */
+}
+.dovbobo{
+  height:200px;
+  width: 200px;
+  
+  border:10px;
+  border: 2px solid blue;
+  border-radius: 50%;
+
+  margin-right: 50px;
+
+  object-fit: cover;
+  object-position: top center;
+  /*расположение свойств ширина , высота ,далее от паддинга, модификации контента, шрифты */
+  
+
+  /* height: 600px; */
+}
+/*inheret наследовать, initial не наследовать , наследуеться от родителя */

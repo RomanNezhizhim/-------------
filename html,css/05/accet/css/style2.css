@@ -1,0 +1,47 @@
+.navigation{
+  background-color:aquamarine;
+}
+.link-list{
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.link-list>li{
+  display: inline-block;
+}
+.link-list>li+li{
+  margin-left: 20px;
+}
+.navigation .link{
+  display: block;
+  padding: 20px 10px;
+  text-decoration: none;
+  background-color:wheat;
+}
+.link:link{ /*не посещенная ссылка*/
+  color:white;
+  background-color:brown;
+}
+.link:visited{ /*посещенная */
+  color:blueviolet;
+  background-color:blue;
+}
+.link:hover{ /*изменение при навидении курсора */
+  background-color:pink;
+}
+.link:active{ /*реакция на нажатие */
+  color: white;
+}
+.link:focus{
+  background-color:green;
+  color:blue;
+  outline: 3px solid;/*наведение на элемент табом (без мышки)*/
+}
+ /*tabindex для изменения порядка наведения табом (пишеться внутри тэга в html,от нуля )*/
+ /*псевдокласс "not" - кроме чего-то */
+*:target{ /*обозначение элемента к которому мы переходим  */
+  background-color:yellow
+}
+li:nth-child(2n+3){/*child (обратиться к ребенку) nth (определенный) внутри скобок (n-все,перед n - каждый например 3, после плюс и цыфра - с котрого начинать  )*/
+  border-bottom: 3px solid red;
+}

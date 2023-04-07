@@ -1,0 +1,42 @@
+/* *{
+  box-sizing: border-box;
+}
+body{
+  height: 2000px;
+  
+}
+.wraper-out,
+.wraper{
+  width: 80%;
+  height: 80vh;
+  margin: auto;
+}
+.wraper-out{
+  background-color: orange;
+}
+.wraper{
+  background-color:brown;
+}
+.inner{
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+  background-color:blueviolet;
+  position:absolute;
+}
+.top-left{
+ top: 0;
+ left: 0;
+}
+.top-right{
+  top: 0;
+  right: 0;
+}
+.butoom-left{
+ position: sticky;
+ top: 100px;
+}
+.buttom-right{
+  bottom: 0;
+  right: 0;
+} */
